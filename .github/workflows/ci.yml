@@ -98,7 +98,7 @@ jobs:
         SKIP_OPEN_FD_ERR_TEST: 1
 
   Windows:
-    runs-on: windows-latest
+    runs-on: windows-2019
     strategy:
       matrix:
         be: [mingw-gcc, msvc]
